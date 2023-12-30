@@ -1,5 +1,8 @@
+import Scratch.LinkedList;
+
 class Program {
     public static void main(String args[]) {
-        System.out.println("Hello, World!!");
+        LinkedList ll = new LinkedList();
+        System.out.println("Created a linkedlist");
     }
 }
