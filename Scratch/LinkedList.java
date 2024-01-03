@@ -1,8 +1,9 @@
 package Scratch;
 
 public class LinkedList {
-    Node head;
-    Node tail;
+    private Node head;
+    private Node tail;
+    private int size;
 
     private class Node {
         int data;
@@ -17,6 +18,7 @@ public class LinkedList {
     public LinkedList() {
         this.head = null;
         this.tail = null;
+        this.size = 0;
     }
 
     public void addFirst(int data) {
@@ -28,6 +30,8 @@ public class LinkedList {
             newnode.next = head;
             head = newnode;
         }
+
+        size++;
     }
 
     public void addLast(int data) {
@@ -39,6 +43,8 @@ public class LinkedList {
             tail.next = newnode;
             tail = newnode;
         }
+
+        size++;
     }
 
     public String toString() {
@@ -58,14 +64,22 @@ public class LinkedList {
     }
 
     public int size() {
-        int size = 0;
+        return this.size;
+    }
+
+    public int get(int idx) {
+        if (idx >= size || idx < 0) {
+            return -1;
+        }
+        
+        int i=0;
         Node curr = head;
 
-        while (curr != null) {
-            size++;
+        while (i < idx) {
             curr = curr.next;
+            i++;
         }
 
-        return size;
+        return curr.data;
     }
 }
