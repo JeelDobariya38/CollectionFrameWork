@@ -72,7 +72,7 @@ public class LinkedList {
             return -1;
         }
         
-        int i=0;
+        int i = 0;
         Node curr = head;
 
         while (i < idx) {
@@ -81,5 +81,21 @@ public class LinkedList {
         }
 
         return curr.data;
+    }
+
+    public void set(int idx, int data) {
+        if (idx >= size || idx < 0) {
+            return;
+        }
+        
+        int i = 0;
+        Node curr = head;
+
+        while (i < idx) {
+            curr = curr.next;
+            i++;
+        }
+
+        curr.data = data;
     }
 }
