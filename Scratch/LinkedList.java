@@ -45,6 +45,10 @@ public class LinkedList {
         String strRepresentation = "";
         Node curr = head;
 
+        if (curr == null) {
+            return "Linkedlist is Empty!!!!!";
+        }
+
         while (curr != null) {
             strRepresentation += curr.data + " -> ";
             curr = curr.next;
