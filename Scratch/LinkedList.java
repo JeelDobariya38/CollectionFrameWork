@@ -56,4 +56,16 @@ public class LinkedList {
 
         return strRepresentation + "null";
     }
+
+    public int size() {
+        int size = 0;
+        Node curr = head;
+
+        while (curr != null) {
+            size++;
+            curr = curr.next;
+        }
+
+        return size;
+    }
 }
