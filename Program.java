@@ -3,6 +3,7 @@ import Scratch.LinkedList;
 class Program {
     public static void main(String args[]) {
         LinkedList ll = new LinkedList();
-        System.out.println("Created a linkedlist");
+        ll.addFirst(0);
+        System.out.println(ll.toString());
     }
 }
