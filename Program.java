@@ -16,26 +16,32 @@ class Program {
         System.out.println(ll);
         System.out.println("Size: " + ll.size());
 
-        System.out.println(ll.get(0));
-        System.out.println(ll.get(9));
-        System.out.println(ll.get(6));
-        System.out.println(ll.get(3));
-        System.out.println(ll.get(-1));
-        System.out.println(ll.get(10));
+        // System.out.println(ll.get(0));
+        // System.out.println(ll.get(9));
+        // System.out.println(ll.get(6));
+        // System.out.println(ll.get(3));
+        // System.out.println(ll.get(-1));
+        // System.out.println(ll.get(10));
 
-        ll.set(0, 13330);
-        ll.set(5, 12922);
-        ll.set(9, 1266);
+        // ll.set(0, 13330);
+        // ll.set(5, 12922);
+        // ll.set(9, 1266);
 
-        System.out.println(ll);
+        // System.out.println(ll);
 
-        ll.set(0, 4422);
-        ll.set(10, 2652);
-        ll.set(-1, 26212);
+        // ll.set(0, 4422);
+        // ll.set(10, 2652);
+        // ll.set(-1, 26212);
     
-        System.out.println(ll.get(0));
-        System.out.println(ll.get(9));
+        // System.out.println(ll.get(0));
+        // System.out.println(ll.get(9));
+
+        System.out.println(ll.removeFirst());
+        System.out.println(ll.removeFirst());
+        System.out.println(ll.removeFirst());
+        System.out.println(ll);
 
         System.out.println(ll);
+        System.out.println("Size: " + ll.size());
     }
 }

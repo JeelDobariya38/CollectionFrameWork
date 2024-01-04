@@ -98,4 +98,14 @@ public class LinkedList {
 
         curr.data = data;
     }
+
+    public int removeFirst() {
+        if (head == null) {
+            return -1;
+        } else {
+            Node temp = head;
+            head = head.next;
+            return temp.data;
+        }
+    }
 }
