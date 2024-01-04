@@ -29,10 +29,6 @@ Contributions to CollectionFrameWork are encouraged! Whether it's fixing bugs, a
 
 Please review our [Contribution Guidelines](CONTRIBUTING.md) before making changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
-
 ---
 
 Happy coding! 🚀
