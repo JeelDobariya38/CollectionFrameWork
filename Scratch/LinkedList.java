@@ -105,6 +105,7 @@ public class LinkedList {
         } else {
             Node temp = head;
             head = head.next;
+            size--;
             return temp.data;
         }
     }
