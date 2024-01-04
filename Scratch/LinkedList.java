@@ -67,6 +67,10 @@ public class LinkedList {
         return this.size;
     }
 
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
     public int get(int idx) {
         if (idx >= size || idx < 0) {
             return -1;

@@ -3,6 +3,7 @@ import Scratch.LinkedList;
 class Program {
     public static void main(String args[]) {
         LinkedList ll = new LinkedList();
+        System.out.println("isEmpty: " + ll.isEmpty());
         System.out.println("Size: " + ll.size());
 
         System.out.println(ll.removeFirst());
@@ -31,6 +32,7 @@ class Program {
         System.out.println(ll.get(3));
         System.out.println(ll.get(-1));
         System.out.println(ll.get(10));
+        System.out.println("isEmpty: " + ll.isEmpty());
 
         ll.set(0, 13330);
         ll.set(5, 12922);
@@ -54,6 +56,7 @@ class Program {
         System.out.println(ll.removeLast());
         System.out.println(ll.removeLast());
         System.out.println(ll);
+        System.out.println("isEmpty: " + ll.isEmpty());
         System.out.println("Size: " + ll.size());
     }
 }
