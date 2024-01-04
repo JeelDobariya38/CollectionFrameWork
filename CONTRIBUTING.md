@@ -10,7 +10,6 @@ Welcome to CollectionFrameWork! We're excited that you're considering contributi
 4. [Code Contribution](#code-contribution)
 5. [Code Review Process](#code-review-process)
 6. [Style Guide](#style-guide)
-7. [Community and Communication](#community-and-communication)
 
 ## How to Contribute
 
