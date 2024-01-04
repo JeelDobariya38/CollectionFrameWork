@@ -11,7 +11,6 @@ Welcome to CollectionFrameWork! We're excited that you're considering contributi
 5. [Code Review Process](#code-review-process)
 6. [Style Guide](#style-guide)
 7. [Community and Communication](#community-and-communication)
-8. [License](#license)
 
 ## How to Contribute
 
@@ -47,11 +46,7 @@ All contributions go through a code review process. The maintainer(s) will revie
 
 ## Style Guide
 
-Follow the [style guide](STYLE_GUIDE.md) for code formatting and naming conventions.
-
-## License
-
-By contributing to CollectionFrameWork, you agree that your contributions will be licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for details.
+Follow the style guide for code formatting and naming conventions (project may follow it own style so please refer existing codebase).
 
 Happy coding!
 
