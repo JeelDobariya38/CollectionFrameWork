@@ -3,6 +3,15 @@ import Scratch.LinkedList;
 class Program {
     public static void main(String args[]) {
         LinkedList ll = new LinkedList();
+        System.out.println("Size: " + ll.size());
+
+        System.out.println(ll.removeFirst());
+        System.out.println(ll);
+
+        System.out.println("Size: " + ll.size());
+        System.out.println(ll.removeLast());
+        System.out.println(ll);
+
         ll.addFirst(0);
         ll.addFirst(301);
         ll.addFirst(3031);
@@ -40,7 +49,10 @@ class Program {
         System.out.println(ll.removeFirst());
         System.out.println(ll.removeFirst());
         System.out.println(ll);
+        System.out.println("Size: " + ll.size());
 
+        System.out.println(ll.removeLast());
+        System.out.println(ll.removeLast());
         System.out.println(ll);
         System.out.println("Size: " + ll.size());
     }

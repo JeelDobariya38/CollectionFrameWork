@@ -109,4 +109,28 @@ public class LinkedList {
             return temp.data;
         }
     }
+
+    public int removeLast() {
+        if (head == null) {
+            return -1;
+        }
+
+        Node curr = head;
+        int data;
+
+        if (head.next == null || head == tail) {
+            head = null;
+            tail = null;
+            return curr.data;
+        }
+
+        while(curr.next.next != null) {
+            curr = curr.next;
+        }
+        
+        tail = curr;
+        data = tail.data;
+        tail.next = null;
+        return data;
+    }
 }
